@@ -1,14 +1,16 @@
-# Encrypted seed (sensitive)
-encrypted_seed.txt
+# Runtime log
+cron/last_code.txt
 
-# Python cache
-__pycache__/
-*.pyc
-
-# Environment files
-.env
+# Node modules
+node_modules/
 
 # IDE files
 .vscode/
 .idea/
-cron/last_code.txt
+
+# Environment
+.env
+
+# Python cache if any
+__pycache__/
+*.pyc
