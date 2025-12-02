@@ -11,3 +11,4 @@ __pycache__/
 # IDE files
 .vscode/
 .idea/
+cron/last_code.txt
