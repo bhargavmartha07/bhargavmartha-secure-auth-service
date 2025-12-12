@@ -1,2 +1,1 @@
-* * * * * /bin/sh -c 'echo "Cron running at $(date)" >> /cron/output.log 2>&1'
-
+* * * * * root /bin/sh -c 'echo "Cron running at $(date)" >> /cron/output.log 2>&1'

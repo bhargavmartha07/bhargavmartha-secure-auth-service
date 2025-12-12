@@ -13,9 +13,5 @@ services:
       - ./student_public.pem:/app/student_public.pem:ro
       - ./instructor_public.pem:/app/instructor_public.pem:ro
     environment:
-      - TZ=UTC
+      TZ: UTC
     restart: unless-stopped
-
-volumes:
-  seed-data:
-  cron-output:
